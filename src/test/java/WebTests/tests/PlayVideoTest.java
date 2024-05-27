@@ -1,9 +1,9 @@
-package tests;
+package WebTests.tests;
 
-import Pages.LoginPage;
-import Pages.UserMainPage;
-import Pages.VideoPage;
-import Pages.VideoPlayerPage;
+import WebTests.Pages.LoginPage;
+import WebTests.Pages.UserMainPage;
+import WebTests.Pages.VideoPage;
+import WebTests.Pages.VideoPlayerPage;
 import org.junit.jupiter.api.*;
 
 

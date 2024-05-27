@@ -1,8 +1,8 @@
-package Pages;
+package WebTests.Pages;
 
+import WebTests.utils.ElementCollectionWrapper;
+import WebTests.utils.MessageToolbar;
 import org.openqa.selenium.By;
-import utils.ElementCollectionWrapper;
-import utils.MessageToolbar;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.$$;
 public class MessagePage {
     private static final By CHAT_LIST = By.xpath(".//msg-chats-list-item");
     private static final By RESULTS_LIST = By.xpath(".//msg-search-results-item");
-    private static final By MESSAGE_LIST = By.xpath(".//msg-message-list");
+    private static final By MESSAGE_LIST = By.xpath("//msg-message-list");
     private static final By MESSAGE = By.xpath(".//msg-message");
     private static final By MESSAGE_PAGE = By.xpath("//*[@id='hook_Block_MessagesLayer']");
     private static final By CHAT_INPUT = By.xpath(".//*[@data-tsid='chat-theme-input']");

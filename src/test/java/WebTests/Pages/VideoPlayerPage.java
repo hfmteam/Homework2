@@ -1,4 +1,4 @@
-package Pages;
+package WebTests.Pages;
 
 import org.openqa.selenium.By;
 

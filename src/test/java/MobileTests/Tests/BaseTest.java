@@ -1,12 +1,12 @@
-package tests;
+package MobileTests.Tests;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
+import static com.codeborne.selenide.Browsers.CHROME;
 import static com.codeborne.selenide.WebDriverRunner.clearBrowserCache;
 
 public abstract class BaseTest {
@@ -15,9 +15,10 @@ public abstract class BaseTest {
     @BeforeAll
     public static void start() {
         System.setProperty("selenide.browser", "Chrome");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        WebDriverRunner.setWebDriver(driver);
+        Configuration.browser = CHROME;
+        Configuration.browserSize = "1920x1080";
+        Configuration.baseUrl = "https://m.ok.ru/discovery";
+        Selenide.open("/");
     }
 
     @AfterAll
@@ -26,3 +27,4 @@ public abstract class BaseTest {
         Selenide.closeWebDriver();
     }
 }
+

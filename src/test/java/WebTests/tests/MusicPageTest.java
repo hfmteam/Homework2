@@ -1,8 +1,8 @@
-package tests;
+package WebTests.tests;
 
-import Pages.LoginPage;
-import Pages.MusicPage;
-import Pages.UserMainPage;
+import WebTests.Pages.LoginPage;
+import WebTests.Pages.MusicPage;
+import WebTests.Pages.UserMainPage;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

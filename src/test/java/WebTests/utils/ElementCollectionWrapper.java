@@ -1,4 +1,4 @@
-package utils;
+package WebTests.utils;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;

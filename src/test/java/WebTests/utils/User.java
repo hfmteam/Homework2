@@ -1,4 +1,4 @@
-package utils;
+package WebTests.utils;
 
 public class User {
     private final String login;

@@ -1,7 +1,7 @@
-package Pages;
+package WebTests.Pages;
 
+import WebTests.utils.TopPanel;
 import org.openqa.selenium.By;
-import utils.TopPanel;
 
 import java.awt.*;
 import java.awt.datatransfer.DataFlavor;

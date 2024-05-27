@@ -1,8 +1,8 @@
-package tests;
+package WebTests.tests;
 
-import Pages.LoginPage;
-import Pages.MessagePage;
-import Pages.UserMainPage;
+import WebTests.Pages.LoginPage;
+import WebTests.Pages.MessagePage;
+import WebTests.Pages.UserMainPage;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.*;

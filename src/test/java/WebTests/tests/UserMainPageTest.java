@@ -1,7 +1,7 @@
-package tests;
+package WebTests.tests;
 
-import Pages.LoginPage;
-import Pages.UserMainPage;
+import WebTests.Pages.LoginPage;
+import WebTests.Pages.UserMainPage;
 import org.junit.jupiter.api.*;
 
 import java.awt.datatransfer.UnsupportedFlavorException;
